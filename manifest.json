@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "Example https server for chrome apps",
+  "version": "0.0.1",
+  "minimum_chrome_version": "42",
+
+  "app": {
+    "background": {
+      "scripts": [
+        "external/https-server.js",
+        "index.js"
+      ]
+    }
+  },
+
+  "permissions": [{
+    "fileSystem": ["write"]
+  }],
+
+  "sockets": {
+    "tcpServer" : {
+      "listen": [":9999"]
+    }
+  }
+}
