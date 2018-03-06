@@ -9,7 +9,8 @@
     "background": {
       "scripts": [
         "external/https-server.js",
-        "index.js"
+        "utils/fs.js",
+        "lib/index.js"
       ]
     }
   },

@@ -10,7 +10,7 @@
   "standard": {
     "globals": [ "chrome" ]
   },
-  "main": "index.js",
+  "main": "lib/index.js",
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
